@@ -1,12 +1,92 @@
-function simulateTransfer() {
-  const network = document.getElementById('network').value;
-  const amount = document.getElementById('amount').value;
-  const output = document.getElementById('output');
-
-  if (amount <= 0) {
-    output.innerHTML = "⚠️ Enter a valid amount.";
-    return;
-  }
-
-  output.innerHTML = `✅ Demo Transfer Successful!<br>Network: <strong>${network}</strong><br>Amount: <strong>${amount} USDT</strong>`;
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
 }
+
+header, section, footer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #0d6efd;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+.network-list, .wallet-list, .platform-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.network-list li, .wallet-list li, .platform-list li {
+    margin-bottom: 8px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Contact buttons */
+.contact-links a {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 18px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+    background-color: #084298;
+}
+
+/* Blockquote */
+blockquote {
+    background-color: #e9ecef;
+    padding: 12px 18px;
+    border-left: 5px solid #0d6efd;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f1f3f5;
+    margin-top: 30px;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-links a {
+        margin-bottom: 10px;
+        display: block;
+    }
+      }
