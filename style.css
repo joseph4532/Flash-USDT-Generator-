@@ -1,0 +1,101 @@
+/* ---------- Global Reset ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Body ---------- */
+body {
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3 {
+    color: #58a6ff;
+    margin-bottom: 15px;
+}
+
+/* ---------- Images ---------- */
+img {
+    width: auto;
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+/* ---------- Center ---------- */
+.center {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* ---------- Badges ---------- */
+.badge img {
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.badge img:hover {
+    transform: scale(1.08);
+}
+
+/* ---------- Buttons (like Telegram/WhatsApp) ---------- */
+button {
+    background: #1f6feb;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #388bfd;
+}
+
+/* ---------- Animated Fade-in ---------- */
+.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ---------- Scroll Smooth ---------- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---------- Scroll To Top Button ---------- */
+#toTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #238636;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+#toTop:hover {
+    background: #2ea043;
+}
