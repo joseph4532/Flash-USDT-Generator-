@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /private/
-Allow: /
-
-Sitemap: https://joseph4532.github.io/Flash-USDT-Generator/sitemap.xml
